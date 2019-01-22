@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF4C841E21CFD301008699B6 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C841D21CFD301008699B6 /* Concentration.swift */; };
+		DF4C842021CFD4DD008699B6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C841F21CFD4DD008699B6 /* Card.swift */; };
 		DF5E498621CCDD7500264638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E498521CCDD7500264638 /* AppDelegate.swift */; };
 		DF5E498821CCDD7500264638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E498721CCDD7500264638 /* ViewController.swift */; };
 		DF5E498B21CCDD7500264638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5E498921CCDD7500264638 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF4C841D21CFD301008699B6 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		DF4C841F21CFD4DD008699B6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		DF5E498221CCDD7500264638 /* Project_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5E498521CCDD7500264638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5E498721CCDD7500264638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF4C83FC21CCE35A008699B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E498521CCDD7500264638 /* AppDelegate.swift */,
+				DF5E498C21CCDD7700264638 /* Assets.xcassets */,
+				DF5E498E21CCDD7700264638 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DF5E497921CCDD7500264638 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +68,11 @@
 		DF5E498421CCDD7500264638 /* Project_1 */ = {
 			isa = PBXGroup;
 			children = (
-				DF5E498521CCDD7500264638 /* AppDelegate.swift */,
+				DF4C841D21CFD301008699B6 /* Concentration.swift */,
+				DF4C841F21CFD4DD008699B6 /* Card.swift */,
 				DF5E498721CCDD7500264638 /* ViewController.swift */,
 				DF5E498921CCDD7500264638 /* Main.storyboard */,
-				DF5E498C21CCDD7700264638 /* Assets.xcassets */,
-				DF5E498E21CCDD7700264638 /* LaunchScreen.storyboard */,
+				DF4C83FC21CCE35A008699B6 /* Supporting Files */,
 				DF5E499121CCDD7700264638 /* Info.plist */,
 			);
 			path = Project_1;
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4C841E21CFD301008699B6 /* Concentration.swift in Sources */,
 				DF5E498821CCDD7500264638 /* ViewController.swift in Sources */,
 				DF5E498621CCDD7500264638 /* AppDelegate.swift in Sources */,
+				DF4C842021CFD4DD008699B6 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKAXZ2S949;
 				INFOPLIST_FILE = Project_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.thaddeuslzy.Project-1";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.thaddeuslzy.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKAXZ2S949;
 				INFOPLIST_FILE = Project_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.thaddeuslzy.Project-1";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.thaddeuslzy.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
